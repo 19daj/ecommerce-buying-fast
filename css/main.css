@@ -1,0 +1,37 @@
+nav {
+    position: fixed;
+    z-index: 2;
+}
+
+#cont {
+    background-color: #EEEEEE;
+}
+
+#buying-fast {
+    font-size: 25px;
+}
+
+.fab {
+    font-size: 20px;
+}
+
+p,
+span {
+    font-size: 20px;
+}
+
+#shoping {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30em;
+}
+
+@media screen and (max-width:425px) {
+    p,
+    span {
+        font-size: 15px;
+    }
+    .fab {
+        font-size: 16px;
+    }
+}
